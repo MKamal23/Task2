@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Background.jpeg);
+    background-size: cover;
+}
+
+.formF {
+position: absolute;
+    width: 280px;
+    height: 400px;
+    top: 25%;
+  transform: translate(-50%, -50%);
+    margin-top: 150px;
+    right: 50%;
+    left: 50%;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, .5);
+}
+
+.imgLogoFb {
+    width: 240px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.formF h1 {
+    padding: 10px;
+    color: cyan;
+}
+
+#pC {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: -5px;
+}
+
+.hr hr,
+p {
+    display: inline-block;
+}
+
+.imgLogoFb img {
+    padding: 5px;
+    width: 200px;
+    height: 100px;
+}
+
+form img {
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+
+form input {
+    width: 70%;
+    height: 25px;
+    text-align: center;
+    border-radius: 0 10px 10px 0px;
+    border: none;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+.inUser1 {
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: -5px;
+}
+
+
+.divImg {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+    padding: 5px;
+}
+
+#div2 {
+    margin-top: 10px;
+}
+
+form {
+    margin-top: 60px;
+}
+
+#btnLogin {
+    width: 86%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color:blue;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#btnLogin:hover {
+    background-color: green;
+}
+
+.supDiv {
+    margin-top: 10px;
+    display: inline-block;
+    float: left;
+    margin-left: 25px;
+    font-size: 13px;
+}
+
+
+#fotgt { 
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 23px;
+}
+#fotgt a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
